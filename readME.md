@@ -1,0 +1,2 @@
+This folder conatisn files used for the prediction of dementia and non-dementia using the laurel place study dataset
+The folder will contain algorithms used to generate the features for the dataset to be used for the development of the model

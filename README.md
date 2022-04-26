@@ -24,3 +24,18 @@ maintaining visual fixation on a cross located 2.0m away. The 5-min ERP stimulus
 comprised auditory stimuli combining interlaced tones and spoken word pairs.
 The dependent variables are the alpha, beta, theta, and delta band powers extracted via spectral
 analysis from the measured EEG while the independent variables will be MMSE
+
+## Data Pre-Processing Techniques
+1. Artifact Correction
+Python was used for offline data processing. A fourth-order Butterworth filter (0.3-20Hz)
+and a Notch filter (60Hz) were applied to the raw EEG data. EOG artifacts were
+corrected with adaptive filtering.
+2. ERPs Generation6
+Established methods, namely, segmentation (−100–900ms), baseline correction (-100-
+0ms), and conditional averaging (tones: standard vs deviant; and word-pairs: congruent
+vs incongruent) were used to derive the ERP responses.
+3. Band Power, Peak Power & Frequency Generation
+The EEG power spectrum was obtained by a Fast Fourier Transformation of the EEG
+signal using a rectangular window. From the generated power spectrum, the band power,
+peak power, and peak frequency were calculated in the following frequency bands: delta
+(0–3.99 Hz), theta (4–7.99 Hz), alpha (8–12.99 Hz), and beta (13–30 Hz).

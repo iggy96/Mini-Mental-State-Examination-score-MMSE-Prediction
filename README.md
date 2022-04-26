@@ -39,3 +39,18 @@ The EEG power spectrum was obtained by a Fast Fourier Transformation of the EEG
 signal using a rectangular window. From the generated power spectrum, the band power,
 peak power, and peak frequency were calculated in the following frequency bands: delta
 (0–3.99 Hz), theta (4–7.99 Hz), alpha (8–12.99 Hz), and beta (13–30 Hz).
+
+## Results
+ Hyperparameters of both models after optimization
+<img width="587" alt="Screen Shot 2022-04-26 at 11 50 38 AM" src="https://user-images.githubusercontent.com/70718280/165371513-2fa10afe-8f00-43ae-bdfd-73bfe8e010a2.png">
+
+## References
+[1] M. Scazufca, O. P. Almeida, H. P. Vallada, W. A. Tasse, and P. R. Menezes,
+“Limitations of the Mini-Mental State Examination for screening dementia in a
+community with low socioeconomic status,” European Archives of Psychiatry and
+Clinical Neuroscience, vol. 259, no. 1, pp. 8–15, Jun. 2008, doi: 10.1007/s00406-008-
+0827-6.
+[2] S. Ruiz-Gómez et al., “Automated Multiclass Classification of Spontaneous EEG
+Activity in Alzheimer’s Disease and Mild Cognitive Impairment,” Entropy, vol. 20, no.
+1, p. 35, Jan. 2018, doi: 10.3390/e20010035.
+

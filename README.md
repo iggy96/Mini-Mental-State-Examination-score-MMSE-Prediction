@@ -41,7 +41,8 @@ peak power, and peak frequency were calculated in the following frequency bands:
 (0–3.99 Hz), theta (4–7.99 Hz), alpha (8–12.99 Hz), and beta (13–30 Hz).
 
 ## Results
- Hyperparameters of both models after optimization
+Hyperparameters of both models after optimization
+
 <img width="587" alt="Screen Shot 2022-04-26 at 11 50 38 AM" src="https://user-images.githubusercontent.com/70718280/165371513-2fa10afe-8f00-43ae-bdfd-73bfe8e010a2.png">
 
 ## References

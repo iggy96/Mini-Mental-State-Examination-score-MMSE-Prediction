@@ -51,6 +51,7 @@ Hyperparameters of both models after optimization
 community with low socioeconomic status,” European Archives of Psychiatry and
 Clinical Neuroscience, vol. 259, no. 1, pp. 8–15, Jun. 2008, doi: 10.1007/s00406-008-
 0827-6.
+
 [2] S. Ruiz-Gómez et al., “Automated Multiclass Classification of Spontaneous EEG
 Activity in Alzheimer’s Disease and Mild Cognitive Impairment,” Entropy, vol. 20, no.
 1, p. 35, Jan. 2018, doi: 10.3390/e20010035.
